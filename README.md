@@ -1,17 +1,17 @@
-oklink/oscommerce-plugin
+bihang/oscommerce-plugin
 ========================
 
 # Installation
 
-1. Copy `oklink_callback.php` into your osCommerce catalog directory
-2. Copy the oklink directory into your osCommerce catalog directory
-3. Copy `includes/modules/payment/oklink.php` into `catalog/includes/modules/payment/`
-4. Copy `includes/languages/english/modules/payment/oklink.php` into `catalog/includes/languages/english/modules/payment/`
+1. Copy `bihang_callback.php` into your osCommerce catalog directory
+2. Copy the bihang directory into your osCommerce catalog directory
+3. Copy `includes/modules/payment/bihang.php` into `catalog/includes/modules/payment/`
+4. Copy `includes/languages/english/modules/payment/bihang.php` into `catalog/includes/languages/english/modules/payment/`
 
 # Configuration
 
-1. Create an API key and secrect at oklink.com 
-2. In your osCommerce admin panel under Modules > Payment, install the "Bitcoin via Oklink" module
+1. Create an API key and secrect at bihang.com 
+2. In your osCommerce admin panel under Modules > Payment, install the "Bitcoin via bihang" module
 3. Fill out all of the configuration information:
 	- Verify that the module is enabled.
 	- Copy/Paste the API key and secret you created in step 1 into the API Key field
@@ -24,10 +24,10 @@ oklink/oscommerce-plugin
 
 # Usage
 
-When a user chooses the "Bitcoin via Oklink" payment method, they will be
+When a user chooses the "Bitcoin via bihang" payment method, they will be
 presented with an order summary as the next step (prices are shown in whatever
 currency they've selected for shopping). Upon confirming their order, the system
-takes the user to oklink.com.  Once payment is received, a link is presented
+takes the user to bihang.com.  Once payment is received, a link is presented
 to the shopper that will take them back to your website.
 
 In your Admin control panel, you can see the orders made via Bitcoins just as
